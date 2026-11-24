@@ -1,0 +1,35 @@
+<suite name="Suite CRM smoke" parallel="none" thread-count="3">
+   <test name="Login Test" parallel="methods">
+      <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="com.phongnguyen.testcases.LoginTest" />
+      </classes>
+   </test>
+   <!--  <test name="Dashboard Test" parallel="methods">
+      <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="com.anhtester.Bai36_AllureReport.testcases.DashboardTest" />
+      </classes>
+   </test>
+
+   <test name="Customer Test" parallel="methods">
+      <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="com.anhtester.Bai36_AllureReport.testcases.CustomersTest" />
+      </classes>
+   </test>
+
+   <test name="Project Test" parallel="methods">
+      <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="com.anhtester.Bai36_AllureReport.testcases.ProjectsTest" />
+      </classes>
+   </test>
+
+   <test name="Task Test" parallel="methods">
+      <parameter name="browser" value="chrome" />
+      <classes>
+         <class name="com.anhtester.Bai36_AllureReport.testcases.TasksTest" />
+      </classes>
+   </test>  -->
+</suite>
